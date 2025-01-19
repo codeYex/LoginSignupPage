@@ -17,4 +17,42 @@ body {
   background-image: url(/images/background/back.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: black;
+  font-family: "Ubuntu";
+}
+
+.login-card {
+  background-color: white;
+  padding: 20px;
+  width: 430px;
+
+  text-align: center;
+  z-index: 3;
+  border-radius: 1.2rem;
+  position: relative;
+}
+.login-card h1 {
+  color: blue;
+}
+.login-form {
+  width: 100%;
+  display: grid;
+  gap: 18px;
+}
+
+.login-form input,
+.login-card submit {
+  border-radius: 10px;
+  height: 50px;
+}
+
+.login-form  input{
+  border: 1px solid grey;
+  padding: 0 14px;
+  font-size: 16px;
+  transition: all 0.24s;
+}
+
+.login-form input:hover{
+  border: 2px solid navy;
 }
