@@ -56,3 +56,19 @@ body {
 .login-form input:hover{
   border: 2px solid navy;
 }
+
+.login-form #button{
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  border: 1px solid white;
+}
+.login-form #button:hover{
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: all 0.2s;
+  font-size: 18px;
+  border: 1px solid white;
+}
